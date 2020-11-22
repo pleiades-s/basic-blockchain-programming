@@ -54,7 +54,9 @@ Ganche는 테스트용 이더리움 네트워크입니다. 메인넷 네트워�
 
 ## Prerequisites
 본격적으로 코드와 놀기 전에 필요한 것들이 있습니다. 
-*[NOTE] 만약 Windows OS 이신 분은 명령프롬프트(CMD) 창을 여시고 진행하시면 됩니다. Powershell로 하면 오류가 날 겁니다.*
+
+
+[NOTE] 만약 Windows OS 이신 분은 명령프롬프트(CMD) 창을 여시고 진행하시면 됩니다. Powershell로 하면 오류가 날 겁니다.
 
 1. node.js 설치
     [링크](https://nodejs.org/ko/)를 통해 현재 환경에 맞게 설치해주세요.
