@@ -1,0 +1,29 @@
+{
+  "name": "basic-blockchain-programming",
+  "version": "1.0.0",
+  "description": "Basic solidity codes that you can play with truffle and ganache.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pleiades-s/basic-blockchain-programming.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pleiades-s/basic-blockchain-programming/issues"
+  },
+  "homepage": "https://github.com/pleiades-s/basic-blockchain-programming#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.2.0",
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.9"
+  }
+}
