@@ -16,7 +16,7 @@ contract('MyFirstContract', () => {
 
     it('Should return hello world', async () => {
         const result = await myfirstcontract.printHelloWorld();
-        // console.log(result);
+        console.log(result);
         assert(result === 'Hello World!'); // The return string of getStr() should be "Hello World".
 
     })
