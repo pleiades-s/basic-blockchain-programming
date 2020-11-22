@@ -95,7 +95,7 @@ Ganche는 테스트용 이더리움 네트워크입니다. 메인넷 네트워�
     ```
 
 4. ganache 설치
-    똑같은 방법으로 ganache 까지 설치하고 설치 여부를 확인해봅시다. * 현재 환경이 mac os 이시면 GUI 버전을 [설치](https://www.trufflesuite.com/ganache)할 수 있습니다. *
+    똑같은 방법으로 ganache 까지 설치하고 설치 여부를 확인해봅시다. *현재 환경이 mac os 이시면 GUI 버전을 [설치](https://www.trufflesuite.com/ganache)할 수 있습니다.*
     ```
     $ npm install -g ganache-cli
     ```
@@ -120,7 +120,7 @@ Ganche는 테스트용 이더리움 네트워크입니다. 메인넷 네트워�
     $ npm install
     ```
     아래 명령어를 입력하실 때, 현재 위치는 basic-blockchain-programming 디렉토리이어야 합니다.
-    
+     
 3. ganache-cli
     터미널(CMD for Windows) 새 창을 띄우시고, 아래 명령어를 입력합니다. 이 명령어를 통해 로컬 이더리움 네트워크를 실행합니다. 아래처럼 성공적으로 네트워크를 생성하셨으면 이 터미널 창은 잠시 옆으로 치워주시면 됩니다.
     ```
