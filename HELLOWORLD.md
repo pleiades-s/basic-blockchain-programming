@@ -1,4 +1,4 @@
-# Hello World를 화면에 출력하는 법
+# Hello World! 를 화면에 출력하는 법
 
 ## MyFirstContract
 ```
@@ -9,7 +9,7 @@ contract MyFirstContract {
     }
 }
 ```
-`contracts/MyFirstContract.sol`의 코드에 printHelloWorld() 함수가 있습니다. 이 함수를 통해 우리는 콘솔에 Hello World! 를 출력할 수 있습니다. 이 함수의 파라미터는 없고 "Hello World!" 문자열을 반환하는 함수입니다. 
+`contracts/MyFirstContract.sol`의 코드에 printHelloWorld() 함수가 있습니다. 이 함수를 통해 우리는 콘솔에 Hello World! 를 출력할 것입니다. 이 함수의 파라미터는 없고 "Hello World!" 문자열을 반환하는 함수입니다. 
 
 ## Compile
 ```
