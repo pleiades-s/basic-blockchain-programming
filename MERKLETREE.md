@@ -111,7 +111,7 @@ $ truffle compile
 Compiling your contracts...
 ===========================
 > Compiling ./contracts/MerkleTree.sol
-> Artifacts written to /Users/pleiadex/Workspace/basic-blockchain-programming/build/contracts
+> Artifacts written to /Users/username/Workspace/basic-blockchain-programming/build/contracts
 > Compiled successfully using:
    - solc: 0.6.11+commit.5ef660b1.Emscripten.clang
 ```
@@ -132,7 +132,7 @@ $ truffle migrate
 Compiling your contracts...
 ===========================
 > Compiling ./contracts/MerkleTree.sol
-> Artifacts written to /Users/pleiadex/Workspace/basic-blockchain-programming/build/contracts
+> Artifacts written to /Users/username/Workspace/basic-blockchain-programming/build/contracts
 > Compiled successfully using:
    - solc: 0.6.11+commit.5ef660b1.Emscripten.clang
 
