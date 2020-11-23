@@ -44,7 +44,7 @@ contract MerkleTree{
         tree.push(keccak256('c')); // tree[2]
         tree.push(keccak256('d')); // tree[3]
 
-        // hashing(left_node, right_node) returns their parents node value.
+        // [NOTE] hashing(left_node, right_node) returns their parents node value.
 
         // Calculate a + b
         tree.push(hashing(tree[0], tree[1])); // tree[4] -> a + b
