@@ -215,30 +215,9 @@ Summary
 =======
 > Total deployments:   3
 > Final cost:          0.03387344 ETH
-
-## Test
-contract('MyFirstContract', () => {
-    before(async () => {
-        myfirstcontract = await MyFirstContract.new(); // Deploy new MyFirstContract contract before testing.
-    })
-
-    it('Should deploy a smart contract properly', async () => {
-        // console.log(myfirstcontract.address);
-        assert(myfirstcontract.address != ''); // The deployed contract's address should not be null.
-    })
-
-    it('Should return hello world', async () => {
-        const result = await myfirstcontract.printHelloWorld();
-        console.log(result);
-        assert(result === 'Hello World!'); // The return string of getStr() should be "Hello World".
-
-    })
-})
 ```
 
-
 ## Test
-
 
 ```
 describe('Should be verified', function() {
@@ -249,7 +228,6 @@ describe('Should be verified', function() {
     });
 });
 ```
-
 
 위 코드는 `test/merkletree_test.js`의 일부분입니다. 이 코드를 통해 배포한 `MerkleTree` 스마트 컨트랙트의 `doVerify()` 함수를 호출하여 반환값을 `result`에 저장합니다. assert문을 통해서 반환값이 `true`이면 테스트 통과, 즉 머클증명에 성공한 것입니다.
 
